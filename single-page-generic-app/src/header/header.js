@@ -1,3 +1,4 @@
+import "../header/header.css"
 import React from 'react';
 import ActionButton from '../components/action-button';
 import { Link } from 'react-router-dom';
@@ -11,23 +12,30 @@ const Header = () => {
   ];
 
   return (
-    <header>
-      <img className="App-logo" alt="logo" />
-      <nav>
-        <ul>
-          {buttonsData.map(button => (
-            <li key={button.id}>
-              <Link to={button.redirectPath}>
+    <header className="header">
+
+      <div>
+        <img className="App-logo" alt="logo" />
+      </div>
+
+      <div>
+        <nav>
+          <div className="buttons-container">
+            {buttonsData.map(button => (
+              <Link key={button.id} to={button.redirectPath}>
                 <ActionButton buttonName={button.buttonName} />
               </Link>
-            </li>
-          ))}
-        </ul>
-      </nav>
+            ))}
+          </div>
+        </nav>
+      </div>
 
-      <img className="App-logo" alt="logo" />
+      <div className="header-images">
+        <img className="App-logo" alt="logo" />
+        <img className="App-logo" alt="logo" />
 
-      <img className="App-logo" alt="logo" />
+      </div>
+
     </header>
   );
 };

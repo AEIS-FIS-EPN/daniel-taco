@@ -1,3 +1,4 @@
+import "../stadistic/stadistic.css"
 import React from "react";
 
 const Stadistic = ({ number, text }) => {

@@ -1,0 +1,9 @@
+.container-stadistic {
+    margin-left: 20px;
+}
+
+.container-description-stadistic {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+}

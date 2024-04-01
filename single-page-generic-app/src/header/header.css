@@ -1,0 +1,12 @@
+.header {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.header-images {
+    text-align: end;
+}
+

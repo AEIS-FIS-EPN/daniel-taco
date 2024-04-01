@@ -1,0 +1,33 @@
+
+.container-description {
+    display: flex;
+    margin-left: 20px;
+}
+
+.container-description-left {
+    flex: none;
+    margin-right: 20px;
+}
+
+.container-description-rigth {
+    padding-top: 32px;
+    padding-left: 50px;
+    padding-right: 80px;
+    text-align-last: justify;
+}
+
+.subtitle {
+    flex: none;
+    margin-right: 30px;
+}
+
+.container-images {
+    text-align: center;
+    align-items: center;
+    width: 50%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

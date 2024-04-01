@@ -1,3 +1,4 @@
+import '../components/components.css'
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 
@@ -9,7 +10,7 @@ const ActionButton = ({ buttonName, redirectPath }) => {
   };
 
   return (
-    <button onClick={handleClick}>
+    <button className='buttons-header' onClick={handleClick}>
       {buttonName}
     </button>
   );
