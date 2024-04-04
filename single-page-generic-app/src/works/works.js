@@ -2,9 +2,9 @@ import "../works/works.css"
 import React from "react";
 import ValueStadistic from "../components/value-stadistics/value-stadistics";
 
-const image1 = process.env.PUBLIC_URL + "image_1.png";
-const image2 = process.env.PUBLIC_URL + "image_2.png";
-const image3 = process.env.PUBLIC_URL + "image_3.png";
+const image1 = process.env.PUBLIC_URL + "/images/portrait-1.png";
+const image2 = process.env.PUBLIC_URL + "/images/portrait-2.jpg";
+const image3 = process.env.PUBLIC_URL + "/images/portrait-3.jpg";
 
 const Works = () => {
 
@@ -21,7 +21,7 @@ const Works = () => {
     ];
 
     return (
-        <div>
+        <div className="container-work-principal">
             <div className="container-description">
                 <div className="container-description-left">
                     <h3>Our Works</h3>

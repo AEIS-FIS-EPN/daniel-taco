@@ -1,5 +1,11 @@
-.container-stadistic {
-    margin-left: 20px;
+.container-principal-stadistic {
+    background-color: var(--secondary-body-bg-color);
+    border-radius: 10px;
+}
+
+.title-stadistic {
+    padding-left: 25px;
+    padding-top: 20px;
 }
 
 .container-description-stadistic {

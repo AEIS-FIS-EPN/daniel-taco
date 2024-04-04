@@ -1,3 +1,21 @@
-.container-service {
-    margin-left: 20px;
+.container-service-title{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.container-service-title img {
+    max-width: 100px; 
+}
+
+.container-service-title h2 {
+    margin: 0; 
+}
+
+.container-service-description {
+    text-align: justify;
+}
+
+.text-service-description {
+    color: var(--secondary-text-color);
 }

@@ -1,0 +1,26 @@
+.container-services {
+    display: flex;
+    margin-top: 40px;
+    background-color: var(--secondary-body-bg-color);
+    border-radius: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.container-services > div:first-child {
+    flex: 1;
+    margin-right: 20px; 
+}
+
+.container-services-description {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    text-align: center;
+    width: calc(74% - 20px);
+    padding-top: 20px;
+}
+
+.text-services-description {
+    color: var(--secondary-text-color);
+}

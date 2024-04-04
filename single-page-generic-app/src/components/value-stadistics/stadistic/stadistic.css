@@ -1,0 +1,20 @@
+.text-stadistic {
+    color: var(--secondary-text-color);
+}
+
+.container-value {
+    display: inline-flex;
+    margin-left: 25px;
+}
+
+.image-value {
+    width: 20px;
+    height: 20px;
+    padding-top: 28px;
+    padding-left: 10px;
+}
+
+.number {
+    font-size: 40px;
+    margin-bottom: 5px;
+}
