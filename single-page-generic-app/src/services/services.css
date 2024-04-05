@@ -24,3 +24,11 @@
 .text-services-description {
     color: var(--secondary-text-color);
 }
+
+.container-services-principal > h3{
+    color: var(--secondary-color);
+}
+ 
+.accent-text{
+    color: var(--secondary-color);
+}

@@ -5,23 +5,25 @@ import { Link } from 'react-router-dom';
 
 const instagram = process.env.PUBLIC_URL + "/images/instagram.png";
 const youtube = process.env.PUBLIC_URL + "/images/youtube.png";
+const principalLogo = process.env.PUBLIC_URL + "/images/principal-logo.png";
 
 const Header = () => {
   // Supongamos que tienes un array de datos con la información de los botones
   const buttonsData = [
     { id: 1, buttonName: 'Inicio', redirectPath: '/' },
-    { id: 2, buttonName: 'Perfil', redirectPath: '/profile' },
-    { id: 3, buttonName: 'Configuración', redirectPath: '/settings' },
+    { id: 2, buttonName: 'Nosotros', redirectPath: '/us' },
+    { id: 3, buttonName: 'Blog', redirectPath: '/blog' },
+    { id: 3, buttonName: 'Contacto', redirectPath: '/contact' },
   ];
 
   return (
     <header className="header">
 
       <div>
-        <img className="App-logo" alt="logo" />
+        <img src={principalLogo} className="header-principal-logo" alt="logo" />
       </div>
 
-      <div>
+      <div className= "option-menu-container">
         <nav>
           <div className="buttons-container">
             {buttonsData.map(button => (

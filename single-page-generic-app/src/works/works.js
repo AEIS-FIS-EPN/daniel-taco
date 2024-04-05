@@ -25,7 +25,7 @@ const Works = () => {
             <div className="container-description">
                 <div className="container-description-left">
                     <h3>Our Works</h3>
-                    <h1>Projects We've Worked On</h1>
+                    <h1>Projects We've <span className="accent-text">Worked</span> On</h1>
                 </div>
                 <div className="container-description-rigth" >
                     <p>{text}</p>

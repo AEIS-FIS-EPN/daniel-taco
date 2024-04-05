@@ -39,3 +39,11 @@
     flex: 1; 
     margin: 10px; 
 }
+
+.container-description-left > h3{
+    color: var(--secondary-color);
+}
+
+.accent-text{
+    color: var(--secondary-color);
+}
